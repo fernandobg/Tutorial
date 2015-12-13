@@ -1,0 +1,9 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<table width="582" height="69" border="1">
+  <tr>
+      <td align="center">ttttt</td>
+  </tr>
+</table>
+

@@ -1,0 +1,16 @@
+create table seguridad(
+Id_segu INT IDENTITY,
+usu_seg char(12),
+cla_seg varchar(20),
+car_seg char(1),
+est_seg char(1),
+cod_per varchar(6),
+fec_cre varchar(14)
+)
+
+insert into seguridad values('luis','3434','A','D','A002','12/02/2015')
+
+select * from seguridad where usu_seg='juan' and cla_seg='hola' and car_seg='P001' and est_seg='A'
+
+select * from seguridad
+select * from T_PROFESOR 
